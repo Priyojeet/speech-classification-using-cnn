@@ -51,7 +51,7 @@ channel = 1
 epochs = 800
 batch_size = 100
 verbose = 1
-num_classes = len(os.listdir("/home/lucifer/study/project/speech_final/data_new/"))
+num_classes = len(os.listdir("/home/lucifer/study/project/speech_final/data_new/")) # change this file path according to your training path.
 
 # Reshaping to perform 2D convolution
 X_train = X_train.reshape(X_train.shape[0], feature_dim_1, feature_dim_2, channel)
